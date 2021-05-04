@@ -14,9 +14,9 @@ function Home() {
         />
         <p>
           <strong>Welcome to my online portfolio!</strong> This website is built
-          using React Typescript, and styled using Semantic UI. Here on the home
-          page I will provide an overview of the options provided in the header
-          above.
+          using React with Typescript, and styled using Semantic UI. Here on the
+          home page I will provide an overview of the options provided in the
+          header above.
         </p>
         <p>
           I am building this portfolio to practice React concepts and learn how
