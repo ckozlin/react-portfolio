@@ -24,9 +24,12 @@ function Home() {
         </p>
         <p>
           Also, now that I have discovered
-          <a href="https://semantic-ui.com/"> Semantic UI</a> , I really wanted
-          to utilize the styling they provide to make something more
-          user-friendly and interactive than my former portfolio.
+          <a href="https://semantic-ui.com/" target="_blank" rel="noreferrer">
+            {" "}
+            Semantic UI
+          </a>{" "}
+          , I really wanted to utilize the styling they provide to make
+          something more user-friendly and interactive than my former portfolio.
         </p>{" "}
         <p>
           The site will be stored on my GitHub for version control, which will

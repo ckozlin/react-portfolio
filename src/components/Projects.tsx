@@ -66,16 +66,13 @@ function Projects() {
         <p>
           This project helped me learn the ins and outs of balanced binary
           search trees (BSTs). I implemented a self-balancing BST from scratch
-          in pure C++. While I will likely never have to use this again, since
-          the data structure is usually provided in many ways, I learned an
-          incredible amount about BSTs, how they work, and why they are useful.
+          in pure C++. I learned an incredible amount about BSTs, how they work,
+          and why they are useful.
         </p>
         <p>
           This project immediately paid dividends by enhancing my understanding
           of data structures and algorithms, which improved my performance in
-          job interviews and future programming endeavors. While it is not fun
-          to implement a data structure from scratch, I certainly know my way
-          around a BST now.
+          job interviews and future programming endeavors.
         </p>
       </div>
     </div>
