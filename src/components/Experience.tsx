@@ -36,7 +36,11 @@ function Experience() {
           </li>
           <li>
             Co-authored{" "}
-            <a href="https://ieeexplore.ieee.org/abstract/document/9090481">
+            <a
+              href="https://ieeexplore.ieee.org/abstract/document/9090481"
+              target="_blank"
+              rel="noreferrer"
+            >
               this
             </a>{" "}
             IEEE published paper
