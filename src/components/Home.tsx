@@ -30,8 +30,16 @@ function Home() {
         </p>{" "}
         <p>
           The site will be stored on my GitHub for version control, which will
-          help me to hone my understanding of Git. I will also deploy it (method
-          of deployment TBD) so that people can actually see it online!
+          help me to hone my understanding of Git. The source code for this
+          website can be found on my{" "}
+          <a href="https://github.com/ckozlin" target="_blank" rel="noreferrer">
+            GitHub page
+          </a>
+          .{" "}
+        </p>
+        <p>
+          I hope you like the website! Feel free to contact me (see footer
+          below) with any questions or suggestions.
         </p>
       </div>
       <div className="ui raised very padded text container segment">
