@@ -16,11 +16,16 @@ function About() {
           className="ui small right floated rounded image"
         />
         <p>
-          I'm so glad you asked. I am currently a rising junior studying
-          Computer Science at the University of Florida. I have a 3.95 GPA.
+          I'm so glad you asked. I am currently a rising junior (Class of '23)
+          studying Computer Science at the University of Florida. As of Spring
+          '21, my GPA is 3.96.
         </p>
         <p>
-          I am very excited to say that I will be interning at Amazon this
+          In addition to a Bachelor's in CS, I am also pursuing a Minor in
+          Spanish and a Certificate in AI Fundamentals and Applications.
+        </p>
+        <p>
+          Also, I am very excited to say that I will be interning at Amazon this
           summer!
         </p>
         <p>
