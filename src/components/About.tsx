@@ -17,16 +17,11 @@ function About() {
         />
         <p>
           I'm so glad you asked. I am currently a rising junior studying
-          Computer Science at the University of Florida. I have a 3.95 GPA.
+          Computer Science at the University of Florida. I have a 3.96 GPA.
         </p>
         <p>
-          I am very excited to say that I will be interning at Amazon this
-          summer!
-        </p>
-        <p>
-          I will be working in Denver as a Software Development Engineer (SDE)
-          and I cannot wait! In fact, part of the reason for building this
-          website is to prepare for the internship.
+          This past summer (2021), I interned with Amazon in Denver as a
+          Software Development Engineer and plan to return next summer.
         </p>
       </div>
       <div className="ui raised very padded text container segment">
@@ -91,8 +86,8 @@ function About() {
           </div>
           <div className="item">
             <div className="ui vertical buttons">
-              <ButtonList label="Dogs ^" type="inverted orange" />
-              <ButtonList label="Television" type="inverted orange" />
+              <ButtonList label="Dogs" type="inverted orange" />
+              <ButtonList label="Disc Golf" type="inverted orange" />
               <ButtonList label="Music" type="inverted orange" />
             </div>
           </div>
