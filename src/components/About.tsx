@@ -16,22 +16,12 @@ function About() {
           className="ui small right floated rounded image"
         />
         <p>
-          I'm so glad you asked. I am currently a rising junior (Class of '23)
-          studying Computer Science at the University of Florida. As of Spring
-          '21, my GPA is 3.96.
+          I'm so glad you asked. I am currently a rising junior studying
+          Computer Science at the University of Florida. I have a 3.96 GPA.
         </p>
         <p>
-          In addition to a Bachelor's in CS, I am also pursuing a Minor in
-          Spanish and a Certificate in AI Fundamentals and Applications.
-        </p>
-        <p>
-          Also, I am very excited to say that I will be interning at Amazon this
-          summer!
-        </p>
-        <p>
-          I will be working in Denver as a Software Development Engineer (SDE)
-          and I cannot wait! In fact, part of the reason for building this
-          website is to prepare for the internship.
+          This past summer (2021), I interned with Amazon in Denver as a
+          Software Development Engineer and plan to return next summer.
         </p>
       </div>
       <div className="ui raised very padded text container segment">
@@ -96,8 +86,8 @@ function About() {
           </div>
           <div className="item">
             <div className="ui vertical buttons">
-              <ButtonList label="Dogs ^" type="inverted orange" />
-              <ButtonList label="Television" type="inverted orange" />
+              <ButtonList label="Dogs" type="inverted orange" />
+              <ButtonList label="Disc Golf" type="inverted orange" />
               <ButtonList label="Music" type="inverted orange" />
             </div>
           </div>
