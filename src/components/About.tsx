@@ -1,5 +1,4 @@
 import React from "react";
-import SoftwareImage from "../images/Software_Engineering.jpg";
 import ButtonList from "./ButtonList";
 import Albert from "../images/Albert.jpeg";
 import Rusty from "../images/Rusty.jpeg";
@@ -9,28 +8,24 @@ function About() {
     <div>
       <br />
       <div className="ui raised very padded text container segment">
-        <h3 className="ui header">What am I currently up to?</h3>
         <img
           alt="Albert the Gator and I"
           src={Albert}
           className="ui small right floated rounded image"
         />
+        <h3 className="ui header">What am I currently up to?</h3>
         <p>
           I'm so glad you asked. I am currently a rising junior studying
-          Computer Science at the University of Florida. I have a 3.96 GPA.
+          Computer Science at the University of Florida. I have a 3.95 GPA
+          overall, and a 3.97 in major-specific courses.
         </p>
         <p>
-          This past summer (2021), I interned with Amazon in Denver as a
-          Software Development Engineer and plan to return next summer.
+          The past two summers (2021 & 2022), I interned with Amazon Web
+          Services in Denver as a Software Development Engineer.
         </p>
       </div>
       <div className="ui raised very padded text container segment">
         <h3 className="ui header">Why Software Engineering?</h3>
-        <img
-          className="ui medium right floated rounded image"
-          alt="computer screen with code on it"
-          src={SoftwareImage}
-        />
         <p>
           For me, there is something special about creating software from
           scratch. I have always loved technology, and as a consumer I love
@@ -47,12 +42,12 @@ function About() {
         </p>
       </div>
       <div className="ui raised very padded text container segment">
-        <h3 className="ui header">Personal Life</h3>
         <img
           alt="My dog Rusty!"
           src={Rusty}
           className="ui small right floated rounded image"
         />
+        <h3 className="ui header">Personal Life</h3>
         <p>
           While my spare time does involve a lot of coding (i.e. this website),
           there's more to the story.

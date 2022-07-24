@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 function Projects() {
   return (
@@ -9,32 +10,52 @@ function Projects() {
         <p>
           I know I am far from the first person to say this, but projects really
           are the best way to learn. I have completed many projects throughout
-          college so far, and look forward to taking on a real-world project at
-          Amazon over summer.
+          college so far, and really enjoyed working on real-world, customer
+          facing projects with big impacts during my internships with Amazon.
         </p>
         <p>
           In this section of my site, I will highlight some of my favorite
-          projects and discuss the underlying code. If you want to learn more,
-          feel free to contact me!
+          projects. If you want to learn more, feel free to contact me!
         </p>
       </div>
       <div className="ui raised very padded text container segment">
-        <h3 className="ui header">HEAL Central: A MERN stack website</h3>
+        <h3 className="ui header">Java Translator</h3>
+        <p>
+          I engineered a programming language translator to convert Pico, a
+          lightweight image processing language, to Java.
+          <ul>
+            <li>
+              Programmed complex algorithms to break the original language down
+              into its intent, and build its equivalent in Java.
+            </li>
+            <li>
+              Built comprehensive unit tests with JUnit to automate testing of
+              each layer of project as well as the entirety.
+            </li>
+            <li>
+              Achieved a deep understanding of how programming languages are
+              compiled and translated.
+            </li>
+          </ul>
+        </p>
+      </div>
+      <div className="ui raised very padded text container segment">
+        <h3 className="ui header">HEAL Central: A MERN Stack Website</h3>
 
         <p>
           As a project in my Software Engineering class, my group developed a
           MERN stack website for UF's Health Educated Asian Leadership (HEAL)
           club.
         </p>
-        <a href="https://ufheal.herokuapp.com" target="_blank" rel="noreferrer">
-          <button className="ui animated inverted green button">
-            <div className="visible content">Check it out!</div>
-            <div className="hidden content">
-              <i className="right arrow icon"></i>
-            </div>
-          </button>
-        </a>
-        <p></p>
+        <p>
+          <Button
+            text="Check it out!"
+            color="green"
+            link="https://ufheal.herokuapp.com/"
+            external
+          />
+        </p>
+
         <p>
           I learned a ton of programming skills from this project, as well as a
           lot about working with a team of people to develop software. I am

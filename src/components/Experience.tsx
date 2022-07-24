@@ -7,35 +7,44 @@ function Experience() {
       <div className="ui raised very padded text container segment">
         <h3 className="ui header">Experience</h3>
         <p>
-          I am always aiming to gain more experience in this field, through
-          school, work, or free time. Here is a list of experiences that I
-          believe will help me to thrive in future Software Engineering roles.
+          I am always eager to gain more experience in this field through
+          school, work, or free time. Here is a list of experiences that have
+          helped me to thrive in the field of Software Engineering.
         </p>
       </div>
       <div className="ui raised very padded text container segment">
         <h2 className="ui header">
-          <i className="amazon icon"></i> Amazon
+          <i className="amazon icon"></i> Amazon Web Services
         </h2>
 
-        <h4 className="ui header">SDE Intern (Summer '21)</h4>
-
+        <h4 className="ui header">
+          Software Development Engineer Intern (Summer 2021, Summer 2022)
+        </h4>
+        <p>
+          <strong>2022</strong>
+        </p>
         <ul>
-          {CreateListItem(
-            "Designed and implemented a project that automates a complex manual task through a frontend UI"
+          {createListItem(
+            "Engineered a full stack redesign of a high traffic page, reducing server costs and latency while improving test coverage and scalability."
           )}
-          <ul>
-            <li>
-              This project abstracts the process for the user, allowing them to
-              make desired backend changes in a more convenient and stable way
-            </li>
-          </ul>
-          <br />
-          {CreateListItem(
-            "Worked with Typescript, React, GraphQL, Testing Library, Cypress, and AWS technologies including Lambda, AppSync, S3, and Polaris"
+          {createListItem(
+            "Devised and implemented the team's first ever dynamic data decoding mechanism, removing need for manual maintenance of data expectations."
           )}
-          {CreateListItem(
-            "Participated in agile development, working with a team to provide the best software solutions for our customers"
+          {createListItem(
+            "Headed the project's entire software development cycle from start-up specifications to rollout of final product."
           )}
+        </ul>
+        <p>
+          <strong>2021</strong>
+        </p>
+        <ul>
+          {createListItem(
+            "Streamlined a complex backend data manipulation task through creation of a frontend interface and several new APIs."
+          )}
+          {createListItem(
+            "Designed and assembled a serverless Native AWS stack for project."
+          )}
+          {createListItem("Earned and accepted a return internship.")}
         </ul>
       </div>
       <div className="ui raised very padded text container segment">
@@ -44,31 +53,28 @@ function Experience() {
         </h2>
         <h4 className="ui header">Lab Volunteer</h4>
         <ul>
-          {CreateListItem(
-            "Analyzed data collected from experiments to find trends"
-          )}
-          {CreateListItem(
-            "Assisted in writing and editing research papers to submit for publication"
-          )}
           <p>
             <li>
-              Co-authored{" "}
+              Authored abstract and trend explanations for an{" "}
               <a href="https://ieeexplore.ieee.org/abstract/document/9090481">
-                this
+                IEEE published paper.
               </a>{" "}
-              IEEE published paper
             </li>
           </p>
+          {createListItem(
+            "Consulted with participants and guiding them through research trials."
+          )}
+          {createListItem("Extracted trends from collected data.")}
         </ul>
       </div>
       <div className="ui raised very padded text container segment">
         <h2 className="ui header">Mathnasium</h2>
         <h4 className="ui header">Math Tutor</h4>
         <ul>
-          {CreateListItem(
+          {createListItem(
             "Utilized various strategies to encourage student engagement in mathematics"
           )}
-          {CreateListItem(
+          {createListItem(
             "Tutored multiple students at a time, responsible for their progress and understanding"
           )}
         </ul>
@@ -77,7 +83,7 @@ function Experience() {
   );
 }
 
-function CreateListItem(text: string) {
+function createListItem(text: string) {
   return (
     <p>
       <li>{text}</li>
