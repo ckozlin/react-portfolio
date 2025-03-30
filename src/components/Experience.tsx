@@ -5,18 +5,21 @@ function Experience() {
     <div>
       <br />
       <div className="ui raised very padded text container segment">
-        <h3 className="ui header">Experience</h3>
-        <p>
-          I am always eager to gain more experience in this field through
-          school, work, or free time. Here is a list of experiences that have
-          helped me to thrive in the field of Software Engineering.
-        </p>
-      </div>
-      <div className="ui raised very padded text container segment">
         <h2 className="ui header">
           <i className="amazon icon"></i> Amazon Web Services
         </h2>
-
+        <h4 className="ui header">Software Development Engineer I</h4>
+        <p>
+          <strong>July 2023 - Present</strong>
+        </p>
+        <ul>
+          {createListItem(
+            "Reduced client data fetching times by up to 75% on critical pages by migrating to a new GraphQL server backed by a Redis cache."
+          )}
+          {createListItem(
+            "Created scalable, high-frequency telemetry views with React and TypeScript, displaying thousands of data points worldwide."
+          )}
+        </ul>
         <h4 className="ui header">
           Software Development Engineer Intern (Summer 2021, Summer 2022)
         </h4>
